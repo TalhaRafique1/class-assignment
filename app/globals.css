@@ -1,0 +1,46 @@
+/* Basic styling for the body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #020202;
+  padding: 10px 20px;
+}
+
+/* Navbar links styling */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 1px 10px;
+  text-align: center;
+}
+
+/* Hover effect for the links */
+.navbar a:hover {
+  background-color: #575757;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .navbar a {
+      display: block;
+      text-align: left;
+  }
+}
+
+
+.yellow{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #3498db;
+  
+}
+
+
+
