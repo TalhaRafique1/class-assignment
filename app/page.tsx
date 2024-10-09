@@ -10,6 +10,7 @@ export default function Home() {
           <Link href="/about">About</Link>
           <Link href="/service">Service</Link>
           <Link href="/contact">Contact</Link>
+           <Link href="/contact/contact-us">Nested Page</Link>
         </div>
       </nav>
 
